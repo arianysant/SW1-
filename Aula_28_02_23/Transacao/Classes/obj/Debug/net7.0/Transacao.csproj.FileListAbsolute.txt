@@ -1,0 +1,15 @@
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\bin\Debug\net7.0\Transacao.exe
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\bin\Debug\net7.0\Transacao.deps.json
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\bin\Debug\net7.0\Transacao.runtimeconfig.json
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\bin\Debug\net7.0\Transacao.dll
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\bin\Debug\net7.0\Transacao.pdb
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\obj\Debug\net7.0\Transacao.csproj.AssemblyReference.cache
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\obj\Debug\net7.0\Transacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\obj\Debug\net7.0\Transacao.AssemblyInfoInputs.cache
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\obj\Debug\net7.0\Transacao.AssemblyInfo.cs
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\obj\Debug\net7.0\Transacao.csproj.CoreCompileInputs.cache
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\obj\Debug\net7.0\Transacao.dll
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\obj\Debug\net7.0\refint\Transacao.dll
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\obj\Debug\net7.0\Transacao.pdb
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\obj\Debug\net7.0\Transacao.genruntimeconfig.cache
+C:\Users\LAB4\Desktop\Aula_28_02_23\Exer_02\Transacao\obj\Debug\net7.0\ref\Transacao.dll
