@@ -22,8 +22,6 @@ class Banco
         return this.Saldo + this.Limite;
     }
 
-    //Nova função de empréstimo
-
     public double parcela {get; set;}
     public double valor {get; set;}
 
