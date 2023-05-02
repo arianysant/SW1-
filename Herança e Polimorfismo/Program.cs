@@ -15,8 +15,8 @@ class Program
         n3.Idade = 18;
         n3.Cargo = "Gerente";
         
-        Console.WriteLine("Nome: " + n1.Nome + " -- Idade: " + n1.Idade + " -- Part: " +  (n1.Participacao()));
-        Console.WriteLine("Nome: " + n2.Nome + " -- Idade: " + n2.Idade + " -- Part: " +  (n2.Participacao()));
-        Console.WriteLine("Nome: " + n3.Nome + " -- Idade: " + n3.Idade + " -- Part: " +  (n3.Participacao()) + " -- Cargo: " + n3.Cargo);
+        Console.WriteLine("Nome: " + n1.Nome + " -- Idade: " + n1.Idade + " -- Part do pagamento: " +  (n1.Participacao()));
+        Console.WriteLine("Nome: " + n2.Nome + " -- Idade: " + n2.Idade + " -- Part do pagamento: " +  (n2.Participacao()));
+        Console.WriteLine("Nome: " + n3.Nome + " -- Idade: " + n3.Idade + " -- Part do pagamento: " +  (n3.Participacao()) + " -- Cargo: " + n3.Cargo);
     }
 }
