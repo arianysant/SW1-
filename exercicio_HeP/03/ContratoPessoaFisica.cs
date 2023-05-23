@@ -2,10 +2,10 @@ namespace _03;
 class ContratoPessoaFisica:Contrato
 {
   public string? Cpf {get;set;}
-   public string? Idade {get;set;}
+   public int Idade {get;set;}
    
 
-   public virtual string MostraDados(){
+   public override string MostraDados(){
 
     return base.MostraDados() + " - " +  this.Cpf + "-" + this.Idade;
  }
