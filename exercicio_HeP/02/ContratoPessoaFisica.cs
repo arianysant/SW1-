@@ -1,4 +1,4 @@
-namespace EXERCICIO_02;
+namespace _02;
 class ContratoPessoaFisica:Contrato
 {
   public string? Cpf {get;set;}
@@ -7,6 +7,6 @@ class ContratoPessoaFisica:Contrato
 
    public virtual string MostraDados(){
 
-    return base.MostraDados() + " ---- " +  this.Cpf + " ---- " + this.Idade;
+    return base.MostraDados() + " ---- CPF: " +  this.Cpf + " ---- IDADE: " + this.Idade;
 }
 }

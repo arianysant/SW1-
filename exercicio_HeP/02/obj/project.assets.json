@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Aluno\\.nuget\\packages\\": {}
+    "C:\\Users\\arian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\EXERCICIO 02\\EXERCICIO 02.csproj",
-      "projectName": "EXERCICIO 02",
-      "projectPath": "C:\\Users\\Aluno\\Desktop\\EXERCICIO 02\\EXERCICIO 02.csproj",
-      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\Desktop\\EXERCICIO 02\\obj\\",
+      "projectUniqueName": "C:\\Users\\arian\\Desktop\\02\\02.csproj",
+      "projectName": "02",
+      "projectPath": "C:\\Users\\arian\\Desktop\\02\\02.csproj",
+      "packagesPath": "C:\\Users\\arian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\arian\\Desktop\\02\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\arian\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
