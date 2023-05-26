@@ -1,18 +1,23 @@
-namespace _03;
 class Contrato
 {
-    public string? Nome {get;set;}
-    public string? Email {get;set;}
-    public string? Telefone {get;set;}
+   public string? Tipo {get;set;}
 
-    public virtual string MostraDados(){
-        String Tudo = this.Nome + " ---- " + this.Email + " ---- " + this.Telefone;
-        return Tudo;
-    }
+   public int Idade {get;set;}
 
-    public virtual double CalcularPrestacao(double valor, int prazo){
-        double parcela = valor/prazo;
+   public long Cnpj {get;set;}
 
-        return parcela;
+   public long Cpf {get;set;}
+
+   public int Prazo {get;set;}
+
+   public long inscricao {get;set;}
+
+   
+
+   
+
+
+   public virtual double CalcularPrestacao(){
+        return 1000;
     }
 }

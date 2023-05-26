@@ -1,31 +1,25 @@
 namespace _03;
 class ContratoPessoaFisica:Contrato
 {
-  public string? Cpf {get;set;}
-   public int Idade {get;set;}
-   
+ public override double CalcularPrestacao()
 
-   public override string MostraDados(){
-
-    return base.MostraDados() + " - " +  this.Cpf + "-" + this.Idade;
- }
-
-    public override double CalcularPrestacao(double valor, int prazo)
+ {
+    if (Idade <= 30)
     {
-        double adicional = 0;
-        if (this.Idade <= 30){
-            adicional = 1;
-        }
-        else if (this.Idade <= 40){
-            adicional = 2;
-        }
-
-        else if (this.Idade <= 50){
-            adicional = 3;
-        }
-        else if (this.Idade > 50){
-            adicional = 4;
-        }
-        return base.CalcularPrestacao(valor, prazo)+ adicional;
+        return ((base.CalcularPrestacao()/Prazo)+1);
     }
+    else if (Idade <= 40) 
+    {
+        return ((base.CalcularPrestacao()/Prazo)+2);
+    }
+    else if (Idade <= 50) 
+    {
+        return ((base.CalcularPrestacao()/Prazo)+3);
+    }
+    else 
+    {
+        return ((base.CalcularPrestacao()/Prazo)+4);
+    }
+}  
+
 }

@@ -1,22 +1,32 @@
 ﻿namespace _03;
 class Program
 {
-    static void Main(string[] args)
+     static void Main(string[] args)
     {
+        Contrato c = new Contrato();
         ContratoPessoaFisica fisica = new ContratoPessoaFisica();
+        ContratoPessoaJuri juri = new ContratoPessoaJuri();
 
-        Console.WriteLine("Cadastro da pessoa fisica: ");
-        Console.WriteLine("Informe o nome da pessoa: ");
-        fisica.Nome = Console.ReadLine();
-        Console.WriteLine("Informe o email da pessoa: ");
-        fisica.Email = Console.ReadLine();
-        Console.WriteLine("Informe o CPF da pessoa: ");
-        fisica.Cpf = Console.ReadLine();
-        Console.WriteLine("Informe a idade da pessoa: ");
-        fisica.idade = Console.ReadLine();
-        Console.WriteLine("Informe o telefone da pessoa: ");
-        fisica.Telefone = Console.ReadLine();
+        fisica.Tipo = "Pessoa Física";
+        fisica.Idade = 16;
+        fisica.Cpf = 00000000000;
+        fisica.Prazo = 10;
+        
 
-        Console.ReadKey();
+        juri.Tipo = "Pessoa Jurídica";
+        juri.Cnpj = 0000000001;
+        juri.inscricao = 123456789;
+        juri.Prazo = 10;
+        
+      
+      
+       
+        Console.WriteLine
+        ("O contrato é: " + fisica.Tipo + "// A idade Idade: " + fisica.Idade + "// O CPF: " + fisica.Cpf  + "// Valor: " + c.CalcularPrestacao() + "// Prazo: "+ fisica.Prazo + "// Prestações: " + fisica.CalcularPrestacao());
+        
+        Console.WriteLine
+        ("O contrato é: " + juri.Tipo + "// cnpj: " + juri.Cnpj + "// Inscrição: " + juri.inscricao  + "// Contrato: " + c.CalcularPrestacao() + "// Prazo: " + juri.Prazo + "// Prestações: " + juri.CalcularPrestacao());
+      
     }
 }
+    
