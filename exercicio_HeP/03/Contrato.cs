@@ -2,6 +2,8 @@ class Contrato
 {
    public string? Tipo {get;set;}
 
+   public string? Nome {get;set;}
+
    public int Idade {get;set;}
 
    public long Cnpj {get;set;}
@@ -10,14 +12,11 @@ class Contrato
 
    public int Prazo {get;set;}
 
-   public long inscricao {get;set;}
-
-   
-
-   
+   public long IE {get;set;}
 
 
-   public virtual double CalcularPrestacao(){
+public virtual double CalcularPrestacao(){
         return 1000;
     }
+
 }

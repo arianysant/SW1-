@@ -1,9 +1,8 @@
 namespace _03;
 class ContratoPessoaFisica:Contrato
 {
- public override double CalcularPrestacao()
 
- {
+public override double CalcularPrestacao(){
     if (Idade <= 30)
     {
         return ((base.CalcularPrestacao()/Prazo)+1);
@@ -20,6 +19,6 @@ class ContratoPessoaFisica:Contrato
     {
         return ((base.CalcularPrestacao()/Prazo)+4);
     }
-}  
-
 }
+}
+
